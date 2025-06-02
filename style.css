@@ -1,9 +1,28 @@
-body {
-    color: navy;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1, h2 {
+	font-variant: small-caps;
+    margin: 10px;
+}
+h1 {
+    border-bottom: 1px solid blue;
+    width: 80%;
 }
 
-.tartalom {
-    width: 960px;
-    height: 100vh;
+div.fénykép img{
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+table {
+    margin: 0px auto;
+    padding: 10px;
+    width:80%;
+    border: 1px solid blue;
+}
+
+tr:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+td:last-child {
+    text-align: right;
 }
