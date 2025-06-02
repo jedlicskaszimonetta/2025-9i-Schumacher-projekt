@@ -1,0 +1,9 @@
+body {
+    color: navy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tartalom {
+    width: 960px;
+    height: 100vh;
+}
