@@ -7,9 +7,11 @@ h1 {
     width: 80%;
 }
 
-div.fénykép img{
+div.fenykep img{
     margin: 10px;
     border: 1px solid blue;
+    float: right;
+    width: 150px;
 }
 
 table {
@@ -25,4 +27,28 @@ tr:nth-child(even) {
 
 td:last-child {
     text-align: right;
+}
+
+body {
+    color: navy;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#tartalom {
+    width: 960px;
+    height: 100vh;
+    margin-top: 0px;
+    text-align: center;
+    background-color: skyblue;
+    border-left: 15px double blue;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
